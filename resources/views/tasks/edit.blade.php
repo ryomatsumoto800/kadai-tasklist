@@ -4,7 +4,7 @@
 
 <!-- ここにページ毎のコンテンツを書く -->
 
-    <h1>id: {{ $message->id }} のメッセージ編集ページ</h1>
+    <h1>id: {{ $task->id }} のメッセージ編集ページ</h1>
 
     <div class="row">
         <div class="col-6">
@@ -16,9 +16,7 @@
                 </div>
 
                 {!! Form::submit('更新', ['class' => 'btn btn-primary']) !!}
-
             {!! Form::close() !!}
         </div>
     </div>
-
 @endsection
